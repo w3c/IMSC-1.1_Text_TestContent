@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" ttp:frameRate="24" ttp:frameRateMultiplier="1000 1001" ttp:tickRate="1000" xmlns:ebutts="urn:ebu:tt:style" xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling" xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter" xmlns:ittm="http://www.w3.org/ns/ttml/profile/imsc1#metadata" ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text" ittp:aspectRatio="16 9">
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" ttp:frameRate="24" ttp:frameRateMultiplier="1000 1001" ttp:tickRate="1000" xmlns:ebutts="urn:ebu:tt:style" xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling" xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter" xmlns:ittm="http://www.w3.org/ns/ttml/profile/imsc1#metadata" ittp:aspectRatio="16 9">
 	<head>
 		<metadata>
-			<ttm:desc>IMSC 1.1 Test Reel | v3-0_2019-01-29 | Created by Dave Kneeland and Brian Holter | Fox Media Services
+			<ttm:desc>IMSC 1.1 Test Reel | v3-1_2019-04-11 | Created by Dave Kneeland and Brian Holter | Fox Media Services
 			Changelog:
+			v3.1	Removed ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text" and added ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text" to the header.
 			v3.0	Major re-working of the items that are tested. This version has added an emphasis on foreign character rendering, and proper color compositing.
 					Added in-line comments to describe the intent of each test.
 			v2.1	Fixed "Time Expression Test Event #3" begin time from 00:04:09:06 to 00:04:09:05 so that it pops on at frame number 5976 as intended 
