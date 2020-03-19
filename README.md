@@ -1,18 +1,18 @@
 # IMSC-1.1_Text_TestContent
 
-This repository was forked from <https://github.com/FoxMediaServices/IMSC-1.1_Text_TestContent> with the intent to increase the reach of the materials provided, per <https://www.w3.org/2019/02/21-tt-minutes.html#item07>
+This repository is forked from <https://github.com/FoxMediaServices/IMSC-1.1_Text_TestContent> with the intent to increase the reach of the materials provided, per <https://www.w3.org/2019/02/21-tt-minutes.html#item07>
 
 This reel is a continuation of the IMSC-1.0.1_Text_TestContent assets. This reel was created with the same scope as the original reel, where the items that are tested are all pertinent to subtitles produced for production content. This version adds numerous additional tests that focus on foreign language rendering, color compositing to different color spaces, and some new IMSC 1.1 attributes. Like the original reel, this has been built to help manufacturers with their IMSC 1.1 Text implementations by providing them with a reference IMSC package.
 
-This test content includes the following assets:
+This test content consists of the following assets:
 
-- <./IMSC1-1_TEXT_Test-Reel_FMS_v4-0-1_2019-11-20.xml>
-- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_HLG_Backplate.mxf]()
-- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_HLG_CompositedProxy.mov]()
-- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec2020-PQ_Backplate.mxf](https://media.w3.org/2019/01/IMSC1-1_TEXT_Test-Reel_FMS_v3-0_2019-01-29_Rec2020-PQ_Backplate.mov)
-- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec2020-PQ_CompositedProxy.mov](https://media.w3.org/2019/01/IMSC1-1_TEXT_Test-Reel_FMS_v3-0_2019-01-29_Rec2020-PQ_CompositedProxy.mp4)
-- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec709_Backplate.mxf](https://media.w3.org/2019/01/IMSC1-1_TEXT_Test-Reel_FMS_v3-0_2019-01-29_Rec709_Backplate.mov)
-- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec709_CompositedProxy.mov](https://media.w3.org/2019/01/IMSC1-1_TEXT_Test-Reel_FMS_v3-0_2019-01-29_Rec709_CompositedProxy.mp4)
+- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0-1_2019-11-20.xml](IMSC1-1_TEXT_Test-Reel_FMS_v4-0-1_2019-11-20.xml)
+- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_HLG_Backplate.mxf](http://media.w3.org/2020/03/IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_HLG_Backplate.mxf)
+- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_HLG_CompositedProxy.mov](http://media.w3.org/2020/03/IMSC1-1_IMAGE_Test-Reel_FMS_v4-0_2019-11-20_HLG_CompositedProxy.mov)
+- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec2020-PQ_Backplate.mxf](http://media.w3.org/2020/03/IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec2020-PQ_Backplate.mxf)
+- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec2020-PQ_CompositedProxy.mov](http://media.w3.org/2020/03/IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec2020-PQ_CompositedProxy.mov)
+- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec709_Backplate.mxf](http://media.w3.org/2020/03/IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec709_Backplate.mxf)
+- [IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec709_CompositedProxy.mov](http://media.w3.org/2020/03/IMSC1-1_TEXT_Test-Reel_FMS_v4-0_2019-11-20_Rec709_CompositedProxy.mov)
 
 The IMSC XML file is to be rendered over the Backplate MXF file. If the IMSC decoding is accurate, it will look approximately the same as the Composited Proxy file. It is acceptable for there to be slight differences in text rendering, since the proportionalSansSerif font chosen by the renderer may be different than what was used for the proxy. There is a Rec 709 backplate and proxy, a Rec 2020 PQ backplate and proxy, and an HLG backplate and proxy. The recommended approach for compositing sRGB subtitles to rec 709, rec 2020 PQ, and HLG is:
 
